@@ -1,20 +1,14 @@
+import AppForm from './components/AppForm';
 import logo from './logo.svg';
-import './App.css';
-import { C01componente } from './components/C01componente';
-import Contador1 from './components/C02componente';
-import Contador2 from './components/C03componente';
-import Contador3 from './components/C04componente';
-import C05operador from './components/C05operadorTemario';
-import C06matriz from './components/C06matriz1';
+//import './App.css';
+import C01componente from './pagina/C01componente';
 
 function App() {
   return (
-    <div>
-      <h1></h1>
-      <C01componente/> 
-      <hr/>
-      
-              
+    <div style={{width:"350px", background:"greenyellow",padding:"10px"}}>
+     <AppForm />
+     <p>No. 1 Juan Manuel x A</p>
+     <p>No. 1 Rosa Maria x A</p>
     </div>
   );
 }
